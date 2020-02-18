@@ -15,9 +15,9 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 42.666668
-    width: 1706.6667
-    height: 984
+    y: 43
+    width: 1920
+    height: 997
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
@@ -44,8 +44,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1707
     height: 984
+=======
+    width: 1920
+    height: 997
+>>>>>>> Xavi_Branch
   m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
@@ -65,7 +70,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1707
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -86,8 +91,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 964
-    width: 1707
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -112,12 +117,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1707
     height: 934
   m_MinSize: {x: 910, y: 442}
   m_MaxSize: {x: 22005, y: 14021}
   vertical: 0
   controlID: 12597
+=======
+    width: 1920
+    height: 947
+  m_MinSize: {x: 909, y: 442}
+  m_MaxSize: {x: 22004, y: 14042}
+  vertical: 0
+  controlID: 326
+>>>>>>> Xavi_Branch
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,12 +151,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 384
     height: 934
   m_MinSize: {x: 231, y: 371}
   m_MaxSize: {x: 10001, y: 14021}
   vertical: 1
   controlID: 12603
+=======
+    width: 386
+    height: 947
+  m_MinSize: {x: 231, y: 392}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 378
+>>>>>>> Xavi_Branch
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,8 +183,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 384
     height: 623
+=======
+    width: 386
+    height: 632
+>>>>>>> Xavi_Branch
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 15}
@@ -185,11 +213,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 623
     width: 384
     height: 311
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    y: 632
+    width: 386
+    height: 315
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> Xavi_Branch
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -210,10 +246,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 384
     y: 0
     width: 204
     height: 934
+=======
+    x: 386
+    y: 0
+    width: 202
+    height: 947
+>>>>>>> Xavi_Branch
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -240,12 +283,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 588
     y: 0
+<<<<<<< HEAD
     width: 775
     height: 934
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
   controlID: 12650
+=======
+    width: 779
+    height: 947
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
+  vertical: 1
+  controlID: 420
+>>>>>>> Xavi_Branch
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -263,10 +315,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 775
     height: 504
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    width: 779
+    height: 653
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> Xavi_Branch
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -290,11 +349,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 504
     width: 775
     height: 430
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    y: 653
+    width: 779
+    height: 294
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> Xavi_Branch
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -315,12 +382,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1363
+    x: 1367
     y: 0
+<<<<<<< HEAD
     width: 344
     height: 934
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    width: 553
+    height: 947
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> Xavi_Branch
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -349,9 +423,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 588
+<<<<<<< HEAD
     y: 576.6667
     width: 773
     height: 409
+=======
+    y: 726
+    width: 777
+    height: 273
+>>>>>>> Xavi_Branch
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -359,7 +439,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 690, y: 388}
+=======
+  m_TargetSize: {x: 448, y: 252}
+>>>>>>> Xavi_Branch
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -373,17 +457,24 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -230
     m_HBaseRangeMax: 230
     m_VBaseRangeMin: -129.33334
     m_VBaseRangeMax: 129.33334
+=======
+    m_HBaseRangeMin: -224
+    m_HBaseRangeMax: 224
+    m_VBaseRangeMin: -126
+    m_VBaseRangeMax: 126
+>>>>>>> Xavi_Branch
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -394,16 +485,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 773
       height: 388
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 386.5, y: 194}
+=======
+      width: 777
+      height: 252
+    m_Scale: {x: 1.1592739, y: 1.1592739}
+    m_Translation: {x: 388.5, y: 124.339905}
+>>>>>>> Xavi_Branch
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -386.5
       y: -194
       width: 773
@@ -411,6 +510,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1159.5, y: 613.5}
+=======
+      x: -335.12357
+      y: -107.256714
+      width: 670.24713
+      height: 217.37746
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 777, y: 273}
+>>>>>>> Xavi_Branch
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -438,9 +546,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 72.66667
     width: 383
     height: 602
+=======
+    y: 73
+    width: 385
+    height: 611
+>>>>>>> Xavi_Branch
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -455,6 +569,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 65
@@ -462,13 +577,28 @@ MonoBehaviour:
   - Assets/Prefabs
   m_LastFoldersGridSize: 65
   m_LastProjectPath: D:\Git\PROJECTS\DissenyJocs_SomGentDePau\DissenyJocs_Prototip
+=======
+    - Assets/Edificis
+  m_ViewMode: 1
+  m_StartGridSize: 65
+  m_LastFolders:
+  - Assets/Edificis
+  m_LastFoldersGridSize: 65
+  m_LastProjectPath: C:\Users\icurt\Documents\GitHub\DissenyJocs_SomGentDePau\DissenyJocs_Prototip
+>>>>>>> Xavi_Branch
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: a0390000
     m_LastClickedID: 14752
     m_ExpandedIDs: 000000009e390000a0390000a2390000b439000000ca9a3b
+=======
+    m_SelectedIDs: dc390000
+    m_LastClickedID: 14812
+    m_ExpandedIDs: 00000000c039000000ca9a3b
+>>>>>>> Xavi_Branch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -496,7 +626,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000009e390000a0390000a2390000b439000000ca9a3b
+=======
+    m_ExpandedIDs: 00000000c039000000ca9a3b
+>>>>>>> Xavi_Branch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -523,7 +657,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ca36000020420000fc4800007a590000b45900000a590000e833000056410000682d000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -540,7 +674,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
+      m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -574,9 +708,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 696
     width: 383
     height: 290
+=======
+    y: 705
+    width: 385
+    height: 294
+>>>>>>> Xavi_Branch
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &17
 MonoBehaviour:
@@ -599,17 +739,28 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 384
     y: 72.66667
     width: 202
     height: 913
+=======
+    x: 386
+    y: 73
+    width: 200
+    height: 926
+>>>>>>> Xavi_Branch
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: f0e9ffffc6eaffff80f7ffff5ef8ffffd63400004a370000
+=======
+      m_ExpandedIDs: 74fbffff
+>>>>>>> Xavi_Branch
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -655,9 +806,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 588
+<<<<<<< HEAD
     y: 72.66667
     width: 773
     height: 483
+=======
+    y: 73
+    width: 777
+    height: 632
+>>>>>>> Xavi_Branch
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: bfa031402450ea34991a4d7546d47fff
@@ -669,9 +826,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -27.141115, y: 40.100586, z: 8.821136}
     speed: 2
     m_Value: {x: -14.591011, y: -9.125643, z: -12.825994}
+=======
+    m_Target: {x: -51.311497, y: 4.8287425, z: -7.833587}
+    speed: 2
+    m_Value: {x: -51.311497, y: 4.8287425, z: -7.833587}
+>>>>>>> Xavi_Branch
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -717,6 +880,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.008093993, y: 0.98453385, z: -0.16849528, w: -0.047293965}
     speed: 2
     m_Value: {x: 0.08781065, y: -0.71434677, z: 0.091138154, w: 0.6882527}
@@ -724,13 +888,22 @@ MonoBehaviour:
     m_Target: 123.90274
     speed: 2
     m_Value: 364.28207
+=======
+    m_Target: {x: -0.11445834, y: -0.7873065, z: 0.15379265, w: -0.58605474}
+    speed: 2
+    m_Value: {x: -0.11380432, y: -0.7866307, z: 0.15243602, w: -0.58738744}
+  m_Size:
+    m_Target: 13.739451
+    speed: 2
+    m_Value: 14.38686
+>>>>>>> Xavi_Branch
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.49748743
+    m_Speed: 1.1
+    m_SpeedNormalized: 0.55748737
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -859,10 +1032,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1363.3334
-    y: 72.66667
-    width: 342
-    height: 913
+    x: 1367
+    y: 73
+    width: 552
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []

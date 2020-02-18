@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":false,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-27.141115188598634,"y":40.1005859375,"z":8.821136474609375},"rotation":{"x":-0.008093993179500103,"y":0.9845338463783264,"z":-0.1684952825307846,"w":-0.04729396477341652},"size":123.90274047851563,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":false,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-51.31149673461914,"y":4.828742504119873,"z":-7.833587169647217},"rotation":{"x":-0.11445833742618561,"y":-0.7873064875602722,"z":0.15379264950752259,"w":-0.5860547423362732},"size":13.73945140838623,"orthographic":false}
+>>>>>>> Xavi_Branch
