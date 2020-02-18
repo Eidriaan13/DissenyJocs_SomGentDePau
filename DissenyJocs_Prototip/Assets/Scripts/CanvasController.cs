@@ -8,6 +8,7 @@ public class CanvasController : MonoBehaviour
     public Canvas megamapCanvas;
     public Canvas shopCanvas;
     public Canvas inventoryCanvas;
+    public Canvas roundsCanvas;
 
 
     // Start is called before the first frame update

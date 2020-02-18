@@ -24,12 +24,19 @@ public class ContainerController : MonoBehaviour
 
     public Transform origin;
 
+    [Header("CONTAINER")]
     public GameObject container;
+    public Material greenContainer;
+    public Material blueContainer;
+    public Material yellowContainer;
+    Material[] containerMaterials;
 
     // Start is called before the first frame update
     void Start()
     {
+        containerMaterials = new Material[3] { greenContainer, yellowContainer, blueContainer };
         minimapIcon.GetComponent<MeshRenderer>().material = greenMaterial;
+        container.GetComponent<MeshRenderer>().material = containerMaterials[Random.Range(0, containerMaterials.Length)];
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
         origin = transform;
     }
@@ -62,6 +69,7 @@ public class ContainerController : MonoBehaviour
                 if (canPlaceHere)
                 {
                     Instantiate(container, transform.position, transform.rotation);
+                    container.GetComponent<MeshRenderer>().material = containerMaterials[Random.Range(0, containerMaterials.Length)];
                     isButtonPressed = false;
                 }
                 else

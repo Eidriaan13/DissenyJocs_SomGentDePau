@@ -63,38 +63,56 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CanvasController.cs" />
+    <Compile Include="Assets\Scripts\CaosController.cs" />
     <Compile Include="Assets\Scripts\ContainerController.cs" />
     <Compile Include="Assets\Scripts\FPSController.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\ITEMS\Inventory.cs" />
     <Compile Include="Assets\Scripts\ITEMS\Item.cs" />
     <Compile Include="Assets\Scripts\ITEMS\Item_Weapon.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\ActivaOrdos.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\AreaContenedoraScript.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\BasuraScript.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\CerebroPolicial.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\DroneEnemy.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\FrontColliderCopScript.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\SciptsPolice 3.0\BASICCop.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\SciptsPolice 3.0\LEADCop.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\Scripts for Police\BasicCop.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\Scripts for Police\InteligenciaSUPREMA.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\Scripts for Police\PoliceInteligent.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\Scripts for Police\SmartCop.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\TrashLEFTSide.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\TrashRIGHTSide.cs" />
+    <Compile Include="Assets\Scripts\Scripts Alvaro\UnidadPolicialScript.cs" />
     <Compile Include="Assets\Scripts\ShopController.cs" />
+    <Compile Include="Assets\Scripts\ThrowSimulation.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/TECNOCAMPUS/3R/2N TRIMESTRE/DISENY JOCS 2/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Git/PROJECTS/DissenyJocs_SomGentDePau/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/TECNOCAMPUS/3R/2N TRIMESTRE/DISENY JOCS 2/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Git/PROJECTS/DissenyJocs_SomGentDePau/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/TECNOCAMPUS/3R/2N TRIMESTRE/DISENY JOCS 2/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Git/PROJECTS/DissenyJocs_SomGentDePau/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/TECNOCAMPUS/3R/2N TRIMESTRE/DISENY JOCS 2/DissenyJocs_Prototip/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Git/PROJECTS/DissenyJocs_SomGentDePau/DissenyJocs_Prototip/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/TECNOCAMPUS/3R/2N TRIMESTRE/DISENY JOCS 2/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Git/PROJECTS/DissenyJocs_SomGentDePau/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/TECNOCAMPUS/3R/2N TRIMESTRE/DISENY JOCS 2/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Git/PROJECTS/DissenyJocs_SomGentDePau/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/TECNOCAMPUS/3R/2N TRIMESTRE/DISENY JOCS 2/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Git/PROJECTS/DissenyJocs_SomGentDePau/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/TECNOCAMPUS/3R/2N TRIMESTRE/DISENY JOCS 2/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Git/PROJECTS/DissenyJocs_SomGentDePau/DissenyJocs_Prototip/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/TECNOCAMPUS/3R/2N TRIMESTRE/DISENY JOCS 2/DissenyJocs_Prototip/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Git/PROJECTS/DissenyJocs_SomGentDePau/DissenyJocs_Prototip/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/UNITY/2019.3.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
