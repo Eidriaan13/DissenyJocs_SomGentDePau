@@ -26,6 +26,7 @@ public class ContainerController : MonoBehaviour
 
     [Header("CONTAINER")]
     public GameObject container;
+    public GameObject containerMesh;
     public Material greenContainer;
     public Material blueContainer;
     public Material yellowContainer;
@@ -69,7 +70,7 @@ public class ContainerController : MonoBehaviour
                 if (canPlaceHere)
                 {
                     Instantiate(container, transform.position, transform.rotation);
-                    container.GetComponent<MeshRenderer>().material = containerMaterials[Random.Range(0, containerMaterials.Length)];
+                    containerMesh.GetComponent<MeshRenderer>().material = containerMaterials[Random.Range(0, containerMaterials.Length)];
                     isButtonPressed = false;
                 }
                 else
