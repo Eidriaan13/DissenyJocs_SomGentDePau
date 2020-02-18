@@ -7,6 +7,17 @@ TagManager:
   - MuzzleFlash
   - Terra
   - police
+  - FRONTR
+  - FRONT
+  - RIGHT
+  - LEAD
+  - FRONTL
+  - LEFT
+  - Trash2
+  - Trash
+  - Trash1
+  - Cop
+  - Build
   layers:
   - Default
   - TransparentFX

@@ -23,7 +23,7 @@ public class ThrowSimulation : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetMouseButtonDown(1))
         {
             StartCoroutine(SimulateProjectile());
         }
@@ -42,7 +42,7 @@ public class ThrowSimulation : MonoBehaviour
     IEnumerator SimulateProjectile()
     {
         // Short delay added before Projectile is thrown
-        yield return new WaitForSeconds(.5f);
+        //yield return new WaitForSeconds(.5f);
 
         // Move projectile to the position of throwing object + add some offset if needed.
         Projectile.position = myTransform.position + new Vector3(0, 0.0f, 0);
