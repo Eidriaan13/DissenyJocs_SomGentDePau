@@ -25,7 +25,6 @@ public class ThrowSimulation : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1))
         {
-            StartCoroutine(SimulateProjectile());
         }
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -75,5 +74,8 @@ public class ThrowSimulation : MonoBehaviour
         }
     }
 
-    
+    public void StartCorroutineCall()
+    {
+        StartCoroutine(SimulateProjectile());
+    }
 }

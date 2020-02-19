@@ -48,7 +48,16 @@ public class FPSController : MonoBehaviour {
     //Important ITEMS!!!!
     public Inventory inventory;
     public Inventory.ItemType selectedItem = Inventory.ItemType.Pedra;
-   
+
+    //Important ThrowSimulation
+    private ThrowSimulation throwSimulationS;
+    public GameObject pedra;
+    public GameObject ampolla;
+    public GameObject adoqui;
+    public GameObject molotov;
+    private GameObject objectToThrow;
+
+
 
     void Awake()
     {
@@ -57,6 +66,7 @@ public class FPSController : MonoBehaviour {
         m_Pitch = m_PitchControllerTransform.localRotation.eulerAngles.x;
 
         m_CharacterController = GetComponent<CharacterController>();
+        throwSimulationS = GetComponent<ThrowSimulation>();
 
        
         
@@ -122,8 +132,6 @@ public class FPSController : MonoBehaviour {
             l_Movement = new Vector3(0, 0, 0);
         }
         
-            
-        
 
         l_Movement.Normalize();
         //l_Movement = l_Movement * Time.deltaTime * m_Speed;
@@ -178,24 +186,37 @@ public class FPSController : MonoBehaviour {
                     if (inventory.inventoryItem1_Qty > 0)
                     {
                         inventory.ConsumeItem(Inventory.ItemType.Pedra);
+                        objectToThrow = Instantiate(pedra, transform.position, transform.rotation);
+                        throwSimulationS.Projectile = objectToThrow.transform;
+                        throwSimulationS.StartCorroutineCall();
+
                     }
                     break;
                 case Inventory.ItemType.Adoqui:
                     if (inventory.inventoryItem2_Qty > 0)
                     {
                         inventory.ConsumeItem(Inventory.ItemType.Adoqui);
+                        objectToThrow = Instantiate(adoqui, transform.position, transform.rotation);
+                        throwSimulationS.Projectile = objectToThrow.transform;
+                        throwSimulationS.StartCorroutineCall();
                     }
                     break;
                 case Inventory.ItemType.Ampolla:
                     if (inventory.inventoryItem3_Qty > 0)
                     {
                         inventory.ConsumeItem(Inventory.ItemType.Ampolla);
+                        objectToThrow = Instantiate(ampolla, transform.position, transform.rotation);
+                        throwSimulationS.Projectile = objectToThrow.transform;
+                        throwSimulationS.StartCorroutineCall();
                     }
                     break;
                 case Inventory.ItemType.Molotov:
                     if (inventory.inventoryItem4_Qty > 0)
                     {
                         inventory.ConsumeItem(Inventory.ItemType.Molotov);
+                        objectToThrow = Instantiate(molotov, transform.position, transform.rotation);
+                        throwSimulationS.Projectile = objectToThrow.transform;
+                        throwSimulationS.StartCorroutineCall();
                     }
                     break;
                 default:
