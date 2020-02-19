@@ -15,6 +15,8 @@ public class GameController : MonoBehaviour
 
     public GameObject megamapCanvas;
     public GameObject caosCanvas;
+    public GameObject minimapCanvas;
+    public GameObject inventoryCanvas;
 
     public int actualRound = 1;
     private bool startNewRound = false;
@@ -46,6 +48,7 @@ public class GameController : MonoBehaviour
         
         megamapCanvas.SetActive(false);
         caosCanvas.SetActive(true);
+        minimapCanvas.SetActive(true);
 
     }
     public void FinishRound()

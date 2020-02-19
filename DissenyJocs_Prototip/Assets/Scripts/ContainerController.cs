@@ -89,24 +89,19 @@ public class ContainerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
         if (other.gameObject.tag != "Terra")
         {
             canPlaceHere = false;
             minimapIcon.GetComponent<MeshRenderer>().material = redMaterial;
 
         }
-
-
-
     }
     private void OnTriggerExit(Collider other)
     {
-        
         if (other.gameObject.tag != "Terra")
         {
              canPlaceHere = true;
-        minimapIcon.GetComponent<MeshRenderer>().material = greenMaterial;
+             minimapIcon.GetComponent<MeshRenderer>().material = greenMaterial;
         }
     }
 

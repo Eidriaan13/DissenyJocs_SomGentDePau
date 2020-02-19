@@ -2551,8 +2551,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8299130200396799828}
+  - component: {fileID: 1517946207644541772}
   m_Layer: 0
-  m_Name: Building 02 (2)
+  m_Name: Building 02
   m_TagString: Build
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2626,6 +2627,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!64 &1517946207644541772
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5005530167541034311}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6444232110802348128, guid: 6a371505652bd2f49879174750efedbd, type: 3}
 --- !u!1 &5021216977543752841
 GameObject:
   m_ObjectHideFlags: 0
