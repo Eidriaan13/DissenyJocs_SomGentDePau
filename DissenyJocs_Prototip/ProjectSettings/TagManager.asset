@@ -18,6 +18,9 @@ TagManager:
   - Trash1
   - Cop
   - Build
+  - ObjC1
+  - ObjC1L
+  - ObjC1R
   layers:
   - Default
   - TransparentFX

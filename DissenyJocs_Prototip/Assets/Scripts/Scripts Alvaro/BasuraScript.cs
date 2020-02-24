@@ -38,7 +38,7 @@ public class BasuraScript : MonoBehaviour
 
             if(PutShield3 == false)
             {
-                Instantiate(Shield3, this.transform.position, Quaternion.identity);
+                Instantiate(Shield3, this.transform.position, this.transform.rotation);
                 PutShield3 = true;
             }  
         }
@@ -47,7 +47,7 @@ public class BasuraScript : MonoBehaviour
         {
             if(PutShield2 == false)
             {
-                Instantiate(Shield2, m_TRightS.transform.position, Quaternion.identity);
+                Instantiate(Shield2, m_TRightS.transform.position, m_TRightS.transform.rotation);
                 PutShield2 = true;
             }   
         }
@@ -55,7 +55,7 @@ public class BasuraScript : MonoBehaviour
         {
             if(PutShield2 == false)
             {
-                Instantiate(Shield2, m_TLeftS.transform.position, Quaternion.identity);
+                Instantiate(Shield2, m_TLeftS.transform.position, m_TLeftS.transform.rotation);
                 PutShield2 = true;
             }  
         }

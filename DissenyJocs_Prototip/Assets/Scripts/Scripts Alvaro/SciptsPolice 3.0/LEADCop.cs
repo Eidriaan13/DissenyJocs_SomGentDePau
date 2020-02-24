@@ -117,7 +117,7 @@ public class LEADCop : MonoBehaviour
         {
             foreach(GameObject Cop in CopsInMyPower)
             {
-                Cop.GetComponent<BASICCop>().Stop();     
+                Cop.GetComponent<BASICCop>().Stop();
             }
             SetTHINKINGState();
         }
@@ -149,17 +149,35 @@ public class LEADCop : MonoBehaviour
         m_State = TState.THINKING;
        
     }
+
+    public void StopCops()
+    {
+        foreach(GameObject Cop in CopsInMyPower)
+        {
+            Cop.GetComponent<BASICCop>().Stop(); 
+            Stop();
+        }
+        
+    }
     void UpateTHINKINGState()
     {
         
         if(SomeoneHaveFoundTrash() == true && TheresWay == false)
         {
            //FindTheWaySecondFunction(WichWay);
-            //WichWay = FindTheWay(FindTheSideTag());
+            WichWay = FindTheWay(FindTheSideTag());
             //Debug.Log(WichWay);
             foreach(GameObject Cop in CopsInMyPower)
             {
-                Cop.GetComponent<BASICCop>().GoToTarget(ConvertTagToVector3(FindTheSideTag()));
+                if(FindTheSideTag() == "NO Hay CAMINO")
+                {
+                    Cop.GetComponent<BASICCop>().Stop();
+                }
+                else
+                {
+                    Cop.GetComponent<BASICCop>().GoToTarget(ConvertTagToVector3(FindTheSideTag()));
+                }
+                
             }
             
             TheresWay = true;  
